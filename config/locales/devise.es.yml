@@ -1,5 +1,16 @@
 es:
   activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: "Este email ya ha sido tomado."
+              blank: "Email no puede estar en blanco."
+            password:
+              blank: "Contraseña no puede estar en blanco."
+            password_confirmation:
+              blank: "Confirmación de contraseña no puede estar en blanco."
     attributes:
       user:
         confirmation_sent_at: Confirmación enviada a
