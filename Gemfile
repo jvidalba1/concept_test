@@ -12,6 +12,7 @@ gem 'devise'
 gem 'devise_invitable'
 gem 'devise_token_auth'
 gem 'byebug'
+gem 'devise-i18n'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
